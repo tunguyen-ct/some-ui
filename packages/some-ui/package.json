@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "cosmiconfig": "^7.0.1"
+  },
+  "dependencies": {
+    "linaria": "1.4.1"
   }
 }

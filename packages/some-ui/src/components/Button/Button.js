@@ -1,7 +1,13 @@
 import theme from "../../theme"
+import { css } from 'linaria'
+
+const button = css`
+  background: ${theme.colors.primary};
+  color: ${theme.colors.text};
+`
 
 const Button = () => {
-  return <button style={{ background: theme.colors.primary, color: theme.colors.text }}>Click me</button>
+  return <button className={button}>Click me</button>
 }
 
 export default Button
